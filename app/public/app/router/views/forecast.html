@@ -10,7 +10,7 @@
       <h2>{{model.forecast.location.localtime}}<h2>
     </div>
     <div class="col-md-6 col-lg-6 text-right">
-      <h1><img src="{{model.forecast.current.condition.icon}}" />{{model.forecast.current.temp_c}}&deg;</h1>
+      <h1><img ng-src="{{model.forecast.current.condition.icon}}" />{{model.forecast.current.temp_c}}&deg;</h1>
       <h2>{{model.forecast.current.condition.text}}<h2>
     </div>
   </div>
@@ -21,7 +21,7 @@
       <h3>{{model.forecast.current.condition.text}}</h3>
     </div>
     <div class="col-sm-5 text-right">
-      <h1><img src="{{model.forecast.current.condition.icon}}" />{{model.forecast.current.temp_c}}&deg;</h1>
+      <h1><img ng-src="{{model.forecast.current.condition.icon}}" />{{model.forecast.current.temp_c}}&deg;</h1>
     </div>
   </div>
   
