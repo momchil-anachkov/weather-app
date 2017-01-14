@@ -38,12 +38,12 @@
   
   <div class="row visible-sm hidden-md hidden-lg">
     <div class="col-sm-12 text-center">
-      <button ui-sref=".today" class="btn btn-default btn-tab" ng-model="viewType" uib-btn-radio="'today'">Today</button>
+      <button ui-sref=".today" ui-sref-active="active" class="btn btn-default btn-tab" ng-model="viewType" uib-btn-radio="'today'">Today</button>
     </div>    
   </div>
   <div class="row visible-sm hidden-md hidden-lg">
     <div class="col-sm-12 text-center">
-      <button ui-sref=".future" class="btn btn-default btn-tab" ng-model="viewType" uib-btn-radio="'future'">48 Hours Forecast</button>
+      <button ui-sref=".future" ui-sref-active="active" class="btn btn-default btn-tab" ng-model="viewType" uib-btn-radio="'future'">48 Hours Forecast</button>
     </div>
   </div>
 </div>
