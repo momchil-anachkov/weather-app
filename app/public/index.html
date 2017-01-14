@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="./css/custom.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="./css/highlight.css"> -->
+
+    <script src="./app/lib/angular1.6.1.js"></script>
+    <script src="./app/lib/angular-ui-router0.3.2.js"></script>
+    <script src="./app/lib/ui-bootstrap2.4.0.js"></script>
+    <script src="./app/app.js"></script>
+    <script src="./app/router/config.js"></script>
+    <script src="./app/controllers/MainCtrl.js"></script>
+    <script src="./app/controllers/SearchCtrl.js"></script>
+    <script src="./app/controllers/ForecastCtrl.js"></script>
+    
+    <base href="/"></base>
+  </head>
+  <body data-ng-app="app">
+    <div class="main" data-ui-view></div>
+      <!--TODO: have a single view and use nested views to display the rest
+                that way the logo can stay on the front page and you avoid having
+                elements other than .row in the .container -->
+  </body>
+</html>

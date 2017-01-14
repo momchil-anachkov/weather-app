@@ -1,0 +1,49 @@
+<div class="container">
+  <div class="row row-logo">
+    <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+      <img src="./res/img/logo.png" />
+    </div>
+  </div>
+  <div class="row hidden-sm visible-md visible-lg">
+    <div class="col-md-6 col-lg-6">
+      <h1>{{model.forecast.location.name}}</h1>
+      <h2>{{model.forecast.location.localtime}}<h2>
+    </div>
+    <div class="col-md-6 col-lg-6 text-right">
+      <h1><img src="{{model.forecast.current.condition.icon}}" />{{model.forecast.current.temp_c}}&deg;</h1>
+      <h2>{{model.forecast.current.condition.text}}<h2>
+    </div>
+  </div>
+  <div class="row visible-sm hidden-md hidden-lg">
+    <div class="col-sm-7">
+      <h1>{{model.forecast.location.name}}</h1>
+      <h2>2017-01-13</h2>
+      <h3>{{model.forecast.current.condition.text}}</h3>
+    </div>
+    <div class="col-sm-5 text-right">
+      <h1><img src="{{model.forecast.current.condition.icon}}" />{{model.forecast.current.temp_c}}&deg;</h1>
+    </div>
+  </div>
+  
+  <div class="row hidden-sm visible-md visible-lg">
+    <div class="col-md-8 col-md-offset-2 text-center">
+      <div class="btn-group">
+        <button ui-sref=".today" class="btn btn-default btn-tab" ng-model="viewType" uib-btn-radio="'today'">Today</button>
+        <button ui-sref=".future" class="btn btn-default btn-tab" ng-model="viewType" uib-btn-radio="'future'">48 Hours Forecast</button>
+      </div>
+    </div>
+  </div>
+
+  <div data-ui-view></div>
+  
+  <div class="row visible-sm hidden-md hidden-lg">
+    <div class="col-sm-12 text-center">
+      <button ui-sref=".today" class="btn btn-default btn-tab" ng-model="viewType" uib-btn-radio="'today'">Today</button>
+    </div>    
+  </div>
+  <div class="row visible-sm hidden-md hidden-lg">
+    <div class="col-sm-12 text-center">
+      <button ui-sref=".future" class="btn btn-default btn-tab" ng-model="viewType" uib-btn-radio="'future'">48 Hours Forecast</button>
+    </div>
+  </div>
+</div>

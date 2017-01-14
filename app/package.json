@@ -1,0 +1,11 @@
+{
+  "name": "weather-app",
+  "version": "0.0.0",
+  "description": "Simple weather app. You can search for a city and it displays the weather forecast for that city.",
+  "main": "server.js",
+  "author": "Momchil",
+  "dependencies": {
+    "express": "^4.14.0",
+    "request": "^2.79.0"
+  }
+}

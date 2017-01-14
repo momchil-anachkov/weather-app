@@ -1,0 +1,64 @@
+.main .container {
+  margin-top: 30px;
+}
+
+.main .container-search {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.main .container .row {
+  margin-bottom: 15px;
+}
+
+.main .container .row-logo {
+  margin-bottom: 5%;
+}
+
+.main .container .row-search {
+  margin-bottom: 150px;
+}
+
+.btn-tab {
+  min-width: 249px;
+  min-height: 35px;
+}
+
+input#city {
+  font-size: 26px;
+  height: 42px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.btn:hover {
+  background-color: #F4F4F4;
+}
+
+.btn-lg {
+  font-size: 26px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.forecast-entry {
+  padding: 0;
+  border-style: solid;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 1px;
+  border-color:black;
+}
+
+.forecast-entry > div {
+  padding: 0;
+}
+
+label {
+  font-weight: normal;
+}
