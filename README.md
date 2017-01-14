@@ -1,8 +1,8 @@
 # Basic weather app
 
 ##Directory structure
-  app: Node.js app, which serves the Angular application to the client.
-  bootstrap: Less source version of bootstrap. Used to edit breakpoints and different variables.
+  * app: Node.js app, which serves the Angular application to the client.
+  * bootstrap: Less source version of bootstrap. Used to edit breakpoints and different variables.
 
 ##Installation & Startup
   1. Navigate to the *app* directory.
