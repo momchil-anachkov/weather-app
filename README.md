@@ -8,4 +8,4 @@
   1. Navigate to the *app* directory.
   2. Run *npm install*.
   3. Run the server: *node server.js*.
-  4. Navigate to localhost:port in your prefered web browser to use the app.
+  4. Navigate to *localhost:port* in your prefered web browser to use the app.
